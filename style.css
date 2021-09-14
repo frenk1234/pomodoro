@@ -5,7 +5,6 @@
 }
 
 .red-section {
-  grid-column: 2/3;
   background-color: rgb(219, 82, 77);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -144,4 +143,27 @@ main {
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
+}
+
+.milk-the-cat {
+  grid-column: 2/3;
+  justify-items: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+.milk-the-cat h2 {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: white;
+  font-weight: 300;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.milk-the-cat p {
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
 }
