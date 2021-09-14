@@ -1,0 +1,355 @@
+@import url("https://use.typekit.net/uds4qcf.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: circe, sans-serif;
+}
+
+.red-section {
+  background-color: rgb(219, 82, 77);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+header {
+  grid-column: 2/3;
+  border-bottom: 1px solid white;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding: 20px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  background-color: rgba(224, 107, 103, 0.801);
+  margin: 5px;
+  padding: 5px;
+}
+
+nav a:first-child {
+  margin-right: auto;
+}
+
+nav a {
+  transition: all 0.3s 0.1s;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 10px;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+.logo-img {
+  width: 20px;
+  margin: 3px;
+}
+
+.icon {
+  width: 15px;
+  margin: 3px;
+}
+
+.icon2 {
+  width: 15px;
+  margin: 3px;
+}
+
+nav h1 {
+  font-size: 14px;
+}
+
+main {
+  grid-column: 2/3;
+}
+
+/*
+ need to figure out how to do it keeping everything inside the main, like red section and white section */
+
+.timer {
+  background-color: rgba(224, 107, 103, 0.801);
+  margin: 1rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.timer-buttons {
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  padding: 5px;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.pomo-button {
+  border-radius: 5px;
+  background-color: rgb(219, 82, 77);
+  margin: 5px;
+  padding: 5px;
+}
+
+.timer-buttons a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  justify-content: space-around;
+}
+
+.time h1 {
+  font-size: 90px;
+  text-align: center;
+  font-weight: 400;
+  color: white;
+}
+
+.start {
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.start a {
+  text-decoration: none;
+  color: rgb(219, 82, 77);
+  font-weight: 600;
+  padding: 10px;
+}
+
+.milk-the-cat {
+  grid-column: 2/3;
+  justify-items: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+.milk-the-cat h2 {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: white;
+  font-weight: 300;
+  padding: 5px;
+}
+
+.milk-the-cat p {
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.task {
+  padding: 1rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.task img {
+  width: 36px;
+  background-color: rgba(224, 107, 103, 0.801);
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.task h2 {
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  padding: 5px;
+  padding-left: 0;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text {
+  grid-column: 2/3;
+  font-weight: 500;
+  min-width: 480px;
+}
+
+.text h1,
+h2,
+p {
+  padding: 5px;
+}
+
+ol,
+ul {
+  padding-left: 25px;
+}
+
+.article .text p ul li::before {
+  color: rgb(219, 82, 77);
+}
+/* not working */
+
+.red {
+  color: rgb(219, 82, 77);
+  font-weight: bold;
+}
+
+.dark {
+  color: hsl(357, 50%, 22%);
+}
+
+.text h2::after {
+  content: "";
+  display: block;
+  /* margin: 0 auto; */
+  width: 24px;
+  padding-top: 8px;
+  border-bottom: 4px solid #f05b56;
+  opacity: 0.6;
+}
+
+.text h1,
+h2 {
+  line-height: 1.4em;
+  font-weight: bold;
+  padding-top: 30px;
+  color: hsl(357, 50%, 22%);
+}
+
+.text p {
+  line-height: 1.6em;
+  color: hsl(357, 12%, 42%);
+}
+
+li {
+  line-height: 1.6rem;
+  color: hsl(357, 12%, 42%);
+  margin: 12px 0px;
+}
+
+footer {
+  border-top: 1px solid lightgray;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  margin: 10px;
+  color: hsl(357, 12%, 42%);
+  font-weight: bold;
+}
+
+.copyright {
+  text-align: center;
+  color: hsl(357, 12%, 42%);
+}
+
+.so-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.so-me img {
+  width: 40px;
+  border-radius: 50px;
+  background-color: gray;
+  margin: 10px;
+  padding: 5px;
+}
+
+.task1,
+.task2 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-left: 5px solid black;
+  padding-bottom: 5px;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.icon2 {
+  background-color: red;
+  padding: 3px;
+}
+
+.task1 .icon {
+  background-color: red;
+  padding: 3px;
+}
+
+.number {
+  color: lightgrey;
+}
+
+.task2 .icon {
+  background-color: red;
+  padding: 3px;
+}
+
+.add-task {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  border: 3px dashed lightgrey;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
