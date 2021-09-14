@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.red-section {
+  grid-column: 2/3;
+  background-color: rgb(219, 82, 77);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+header {
+  grid-column: 2/3;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding: 20px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  background-color: rgba(224, 107, 103, 0.801);
+  margin: 5px;
+  padding: 5px;
+}
+
+nav a:first-child {
+  margin-right: auto;
+}
+
+nav a {
+  transition: all 0.3s 0.1s;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 10px;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+.logo-img {
+  width: 20px;
+  margin: 3px;
+}
+
+.icon {
+  width: 15px;
+  margin: 3px;
+}
+
+nav h1 {
+  font-size: 14px;
+}
+
+main {
+  grid-column: 2/3;
+}
+
+.timer {
+  background-color: rgba(224, 107, 103, 0.801);
+  margin: 1rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.timer-buttons {
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  padding: 5px;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.pomo-button {
+  border-radius: 5px;
+  background-color: rgb(219, 82, 77);
+  margin: 5px;
+  padding: 5px;
+}
+
+.timer-buttons a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  justify-content: space-around;
+}
+
+.time h1 {
+  font-size: 90px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.start {
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.start a {
+  text-decoration: none;
+  color: rgb(219, 82, 77);
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
