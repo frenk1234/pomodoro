@@ -167,3 +167,59 @@ main {
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.task {
+  padding: 1rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.task img {
+  width: 36px;
+  background-color: rgba(224, 107, 103, 0.801);
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.task h2 {
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  padding: 5px;
+  padding-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text {
+  grid-column: 2/3;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.text h1,
+h2,
+p {
+  padding: 5px;
+}
+
+.red {
+  color: rgb(219, 82, 77);
+}
+
+.dark {
+  color: rgb(107, 35, 33);
+}
